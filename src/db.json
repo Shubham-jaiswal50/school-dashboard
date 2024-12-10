@@ -1,0 +1,22 @@
+{
+  "student": [
+    {
+      "id": "5cdb",
+      "name": "prachi",
+      "Age": "16",
+      "gender": "female",
+      "Class": "8",
+      "mothername": "rekha jatav",
+      "fathername": "jitendra"
+    },
+    {
+      "id": "0430",
+      "name": "Shubham Jaiswal",
+      "Age": "14",
+      "gender": "male",
+      "Class": "10",
+      "mothername": "saroj jaiswal",
+      "fathername": "narendra jaiswal"
+    }
+  ]
+}
