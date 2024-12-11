@@ -9,7 +9,7 @@ const Edit=()=>{
 const {id} =useParams();
 // alert(id)
 const loadData=()=>{
-    let api=`http://localhost:5000/student/${id}`;
+    let api=`http://localhost:3000/student/${id}`;
     axios.get(api).then((res)=>{
         setMydata(res.data);
         console.log(res.data);
@@ -29,7 +29,7 @@ const handleInput=(e)=>
 
 
 const handleSubmit=()=>{
-    let api=`http://localhost:5000/student/${id}`;
+    let api=`http://localhost:3000/student/${id}`;
     axios.put(api, mydata).then((res)=>{
         alert("Data succesflly updated!!!");
     })

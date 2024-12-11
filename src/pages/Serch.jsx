@@ -6,7 +6,7 @@ const Serch = () => {
     const [mydata, setMydata] = useState([]);
 
     const handleSubmit = () => {
-        let api = `http://localhost:5000/student/?name=${name}`;
+        let api = `http://localhost:3000/student/?name=${name}`;
         axios.get(api).then((res) => {
             setMydata(res.data);
             if (res.data.length <= 0) {

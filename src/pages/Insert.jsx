@@ -14,7 +14,7 @@ const Insert = () => {
     };
 
     const handleSubmit = () => {
-        let api = "http://localhost:5000/student";
+        let api = "http://localhost:3000/student";
         axios.post(api, input).then((res) => {
             alert("Data Inserted Successfully");
             setInput({

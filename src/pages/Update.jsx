@@ -11,7 +11,7 @@ const Update=()=>{
     const [mydata, setMydata]=useState([]);
     const navigate= useNavigate();
     const loadData=()=>{
-        let api="http://localhost:5000/student";
+        let api="http://localhost:3000/student";
         axios.get(api).then((res)=>{
             setMydata(res.data);
         })
@@ -20,7 +20,7 @@ const Update=()=>{
         loadData();
     }, []); 
     const myDel=async(id)=>{
-        let api=`http://localhost:5000/student/${id}`;
+        let api=`http://localhost:3000/student/${id}`;
         await axios.delete(api).then((res)=>{
             alert("Record Sjuccesfully deleted!");
         loadData();
