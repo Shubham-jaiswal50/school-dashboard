@@ -3,8 +3,8 @@
     {
       "id": "5cdb",
       "name": "prachi",
-      "Age": "16",
-      "gender": "female",
+      "Age": "20",
+      "gender": "male",
       "Class": "8",
       "mothername": "rekha jatav",
       "fathername": "jitendra"
@@ -12,20 +12,20 @@
     {
       "id": "0430",
       "name": "Shubham Jaiswal",
-      "Age": "17",
+      "Age": "20",
       "gender": "male",
       "Class": "10",
       "mothername": "saroj jaiswal",
       "fathername": "narendra jaiswal"
     },
     {
-      "id": "3d62",
-      "name": "kartika meena",
-      "Age": "5",
+      "id": "a047",
+      "name": "sanju raja",
+      "Age": "22",
       "gender": "male",
-      "Class": "6",
-      "mothername": "ytuffh",
-      "fathername": "ngvjhv"
+      "Class": "9",
+      "mothername": "miss Saroj raja Chauhan",
+      "fathername": "mr Tejbhan singh chauhan"
     }
   ]
 }

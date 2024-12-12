@@ -51,9 +51,9 @@ const Update=()=>{
 
 
             <td>
-            <a href="#" onClick={()=>{myEdit(key.id)}}>
+            <button onClick={()=>{myEdit(key.id)}}>
           <FaEdit />
-          </a>
+          </button>
            </td>
 
 

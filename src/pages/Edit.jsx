@@ -67,8 +67,8 @@ const handleSubmit=()=>{
             <label for="fathername">Father Name:</label>
             <input type="text" id="fathername" name="fathername" value={mydata.fathername} onChange={handleInput} />
         </div>
-
-        <button class="submit-btn" onClick={handleSubmit}>Update Save!</button>
+        {/* class="submit-btn" */}
+        <button  onClick={handleSubmit}>Update Save!</button>
     </form>
 </div>
 
