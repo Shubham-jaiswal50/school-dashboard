@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 import axios from "axios";
 
@@ -6,6 +6,7 @@ import axios from "axios";
 const Edit=()=>{
 
     const [mydata, setMydata]=useState({});
+    const navigate = useNavigate();
 const {id} =useParams();
 // alert(id)
 const loadData=()=>{
@@ -28,10 +29,14 @@ const handleInput=(e)=>
 }
 
 
-const handleSubmit=()=>{
+const handleSubmit=async(e)=>{
+    e.preventDefault();
     let api=`http://localhost:3000/student/${id}`;
-    axios.put(api, mydata).then((res)=>{
+    await axios.patch(api, mydata).then((res)=>{
         alert("Data succesflly updated!!!");
+        console.log("navigate")
+        navigate("/display");
+
     })
 }
 
