@@ -1,15 +1,6 @@
 {
   "student": [
     {
-      "id": "5cdb",
-      "name": "prachi",
-      "Age": "22",
-      "gender": "female",
-      "Class": "8",
-      "mothername": "rekha jatav",
-      "fathername": "jitendra"
-    },
-    {
       "id": "0430",
       "name": "Shubham Jaiswal",
       "Age": "20",
@@ -19,13 +10,23 @@
       "fathername": "narendra jaiswal"
     },
     {
-      "id": "a047",
-      "name": "sanju raja",
-      "Age": "22",
+      "id": "6721",
+      "name": "shubhangi",
+      "Age": "20",
+      "gender": "female",
+      "Class": "10",
+      "mothername": "saroj jaiswal",
+      "fathername": "narendra jaiswal"
+    },
+    {
+      "id": "2ebe",
+      "name": "anmol",
+      "Age": "15",
       "gender": "male",
-      "Class": "9",
-      "mothername": "miss Saroj raja Chauhan",
-      "fathername": "mr Tejbhan singh chauhan"
+      "Class": "8",
+      "mothername": "fhgvh",
+      "fathername": "hjjhbj"
     }
+   
   ]
 }

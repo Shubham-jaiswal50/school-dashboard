@@ -6,7 +6,7 @@ const Serch = () => {
     const [mydata, setMydata] = useState([]);
 
     const handleSubmit = () => {
-        let api = `http://localhost:3000/student/?name=${name}`;
+        let api = `https://schooldata-theta.vercel.app/student/?name=${name}`;
         axios.get(api).then((res) => {
             setMydata(res.data);
             if (res.data.length <= 0) {
@@ -29,11 +29,11 @@ const Serch = () => {
                 <p><strong>Father Name:</strong> {key.fathername}</p>
             </div>
         );
-    });
-
-    return (
-        <>
-            <style>
+    }); 
+              return(
+                <>
+                <style>
+                
                 {`
                 body {
                     font-family: Arial, sans-serif;

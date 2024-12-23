@@ -20,7 +20,7 @@ const Update=()=>{
         loadData();
     }, []); 
     const myDel=async(id)=>{
-        let api=`http://localhost:3000/student/${id}`;
+        let api=`https://schooldata-theta.vercel.app/student/${id}`;
         await axios.delete(api).then((res)=>{
             alert("Record Sjuccesfully deleted!");
         loadData();
