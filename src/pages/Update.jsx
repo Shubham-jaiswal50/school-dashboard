@@ -11,7 +11,7 @@ const Update=()=>{
     const [mydata, setMydata]=useState([]);
     const navigate= useNavigate();
     const loadData=()=>{
-        let api="http://localhost:3000/student";
+        let api="https://schooldata-theta.vercel.app/student";
         axios.get(api).then((res)=>{
             setMydata(res.data);
         })
