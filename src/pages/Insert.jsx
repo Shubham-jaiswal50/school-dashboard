@@ -14,7 +14,7 @@ const Insert = () => {
     };
 
     const handleSubmit = () => {
-        let api = "https://schooldata-theta.vercel.app/student/student";
+        let api = "https://schooldata-theta.vercel.app/student";
         axios.post(api, input).then((res) => {
             alert("Data Inserted Successfully");
             setInput({

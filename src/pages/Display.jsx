@@ -4,7 +4,7 @@ import axios from "axios";
 const Display=()=>{
     const [mydata, setMydata] = useState([]);
     const loadData=()=>{
-        let api="https://schooldata-theta.vercel.app/student/student";
+        let api="https://schooldata-theta.vercel.app/student";
         axios.get(api).then((res)=>{
             setMydata(res.data);
         })
